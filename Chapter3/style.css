@@ -1,15 +1,33 @@
-main {
-        width: 500px;
-        margin: auto;
-        background: gray;
-    }
-nav {
-    /*Уберите пометку комментария со следующей строки, если хотите иметь черную границу */
-    /* border: 3px solid black: */
-    width: 200 px;
-    float: right;
+* {
+    margin: 0;
+    padding: 0;
 }
-p {
-    margin: 0; /* Ноль от границы по умолчанию */
+body {
+    font-size: 100% /* Устанавливаем базовый размер шрифта для всего документа */
+}
+h1 {
+    font-family: "Denk One, sans-serif";
+    font-size: xx-large; /* Устанавливаем относительно базового размера шрифта */
+}
+h2 {
+    font-size: x-large;
+}
+.important {
+    font-size: larger;
+}
+.onePointTwo {
+    font-size: 1.2em /* устанавливает шрифт в 1.2 раза больше базового размера */
+}
+main {
+    background: lightgray;
 }
 
+nav {
+    background: darkgrey;
+    float: left;
+    margin: 7px;
+}
+footer {
+    background: rgb(185, 138, 146);
+    clear: both;
+}
