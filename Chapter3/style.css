@@ -1,35 +1,15 @@
-/* Здесь находится стиль для элемента body */
-body {
-    /* Устанавливаем светло-голубой цвет фона */
-    background: lightcyan;
-    /* Устанавливаем красный цвет для элементов */
-    color: #ff0000;
-    /* Устанавливаем ширину body 800 пикселов */
-    width: 800px;
-    margin: auto;
+main {
+        width: 500px;
+        margin: auto;
+        background: gray;
     }
-    h1 {
-    background: black;        
-    color: white;
-    text-align: center;
-    }
-    .first {
-    color: red;
-    margin: 10px;
-    padding: 20px;
-    }
-    span {
-        color: chartreuse;
-    }
-    a {
-        color: cornflowerblue;
-        /* Убираем подчёркиваение по умолчанию */
-        text-decoration: none;
-    }
-    a:visited {
-        color: tomato;
-    }
-    a:hover {
-        color: black;
-        text-decoration: underline;
-    }
+nav {
+    /*Уберите пометку комментария со следующей строки, если хотите иметь черную границу */
+    /* border: 3px solid black: */
+    width: 200 px;
+    float: right;
+}
+p {
+    margin: 0; /* Ноль от границы по умолчанию */
+}
+
