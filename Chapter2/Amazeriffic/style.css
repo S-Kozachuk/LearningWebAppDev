@@ -12,7 +12,7 @@ header {
     background: white;
     overflow: auto;
 }
-header h1 {
+ h1 {
     float: left;
     width: 570px;
 }
@@ -23,5 +23,21 @@ header nav {
 main {
     background: white;
     overflow: auto; 
+}
+main .left {
+    float: left;
+    width: 570px;
+}
+main .right {
+    float: right;
+    width: 285px;
+} 
+footer .left {
+    float: left;
+    width: 570px;
+}
+footer .sitemap {
+    float: right;
+    width: 285px;
 }
 
