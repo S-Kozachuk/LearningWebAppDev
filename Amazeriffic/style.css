@@ -67,3 +67,11 @@ footer .sitemap {
 footer .sitemap ul {
     padding-left: 20px;
 }
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
