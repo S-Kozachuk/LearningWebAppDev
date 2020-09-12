@@ -12,11 +12,16 @@ header, main, footer {
 header .container, main .container, footer .container {
     max-width: 855px;
     margin: auto;
-    font-size: 100%;
 }
 header {
     background: white;
     overflow: auto;
+}
+header nav {
+    float: right;
+    width: 285px;
+    font-size: small;
+    padding-top: 22px;  
 }
 h1, h2, h3, h5 {
     font-family:'Ubuntu', sans-serif;
@@ -24,34 +29,41 @@ h1, h2, h3, h5 {
 h1 {
     float: left;
     width: 570px; 
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 h2 {
-    font-family: 'Ubuntu', sans-serif;
     font-size: x-large;
 }
-header nav {
-    float: right;
-    width: 285px;
+h5 {
+    font-size: medium;
 }
 main {
     background: white;
-    overflow: auto; 
+    overflow: auto;
+    padding-top: 5px; 
 }
 main .left {
     float: left;
     width: 570px;
+    padding-top: 5px;
 }
 main .right {
     float: right;
     width: 285px;
 } 
-footer .left {
-    float: left;
-    width: 570px;
-}
-footer .sitemap {
-    float: left;
-    width: 285px;
+main img {
+    padding-bottom: 15px;
 }
 
+footer .left {
+    float: left;
+    width: 640px;
+    font-size: medium;
+}
+footer .sitemap {
+    float: right;
+    width: 215px;
+}
+footer .sitemap ul {
+    padding-left: 20px;
+}
