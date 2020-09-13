@@ -1,3 +1,3 @@
-.a, .relevant {
+body>p:first-of-type {
     color: red;
 }
